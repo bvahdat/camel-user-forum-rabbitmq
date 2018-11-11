@@ -1,3 +1,5 @@
+This repo is a copy & paste of the code sample @ https://github.com/apache/camel/tree/master/examples/camel-example-rabbitmq with couple of adjustments to reproduce a problem reported in Apache Camel user-forum. 
+
 == How to run
 
 The sample requires a RabbitMQ broker to be running.
