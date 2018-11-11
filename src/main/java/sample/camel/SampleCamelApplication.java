@@ -18,12 +18,14 @@ package sample.camel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ImportResource;
 
 //CHECKSTYLE:OFF
 /**
  * A sample Spring Boot application that starts the Camel routes.
  */
 @SpringBootApplication
+@ImportResource("classpath:rmq-to-s3-camel.xml")
 public class SampleCamelApplication {
 
     /**

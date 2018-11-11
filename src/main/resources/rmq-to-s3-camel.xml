@@ -23,7 +23,7 @@
        xsi:schemaLocation="
          http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
          http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
-<!--
+
   <bean id="customConnectionFactory" class="com.rabbitmq.client.ConnectionFactory">
     <property name="host" value="localhost"/>
     <property name="port" value="15672"/>
@@ -37,5 +37,5 @@
       <to uri="stream:out"/>
     </route>
   </camelContext>
--->
+
 </beans>
