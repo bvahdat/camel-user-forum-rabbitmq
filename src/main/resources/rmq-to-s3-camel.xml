@@ -26,7 +26,7 @@
 
   <bean id="customConnectionFactory" class="com.rabbitmq.client.ConnectionFactory">
     <property name="host" value="localhost"/>
-    <property name="port" value="15672"/>
+    <property name="port" value="5672"/>
     <property name="username" value="guest"/>
     <property name="password" value="guest"/>
   </bean>     
